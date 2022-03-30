@@ -1,0 +1,66 @@
+/*aplicar a formatação a todos os elementos. Usaremos o asterisco*/
+
+* {
+  /*zerar as margens externas dos elememtos*/
+  margin: 0;
+
+  /*zerar as margens internas dos elementos*/
+  padding: 0;
+
+  /*ajuste das caixas (box) dos elementos*/
+  box-sizing: border-box;
+}
+
+header {
+  height: 300px; /*altura da caixa*/
+  /*adicionar uma imagem ao fundo*/
+  background-image: url("../img/cafe1.jpg");
+  /*ajustar a imagem em 100%*/
+  background-size: 100%;
+  /*ajustar a posição em x e y da imagem de fundo*/
+  background-position: 0 -300px;
+  /*animação no fundo*/
+  transition: ease 1s;
+  padding-top: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(241, 66, 12, 0.63) (245, 39, 2);
+  font-family: "verdana";
+  /*aplicar uma sombra no texto*/
+  text-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+nav {
+  background-color: rgba(252, 126, 8, 0.541);
+  text-align: center;
+}
+nav ul li {
+  /*dispor os itens da lista (li) em linha */
+  display: inline-block;
+  /*aumentar a distancia entre os elementos*/
+  padding: 15px;
+  transition: ease 1s;
+}
+/* ao passar o mouse sobre o link do fundo link deve alterar sua cor*/
+nav ul li:hover {
+  background-color: rgb(253, 73, 2);
+}
+
+nav ul li a {
+  font-family: "vernada";
+  font-size: 10pt;
+  color: crimson;
+  /*retirar o underline do link*/
+  text-decoration: none; /*nenhum*/
+}
+footer {
+  height: 300px; /*altura em 300px*/
+  background-color: darksalmon;
+  color: whitesmoke;
+  font-family: "fantasy";
+  padding-top: 16px;
+  /*dispor de forma flexivel e em linha*/
+  display: flex;
+  flex-direction: row;
+}
