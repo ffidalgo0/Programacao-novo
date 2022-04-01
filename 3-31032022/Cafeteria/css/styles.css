@@ -238,3 +238,9 @@ main form input[type="submit"]{
   color: white;
   
 }
+#mapa iframe{
+  width: 100%;
+  height: 500px;
+
+
+}
