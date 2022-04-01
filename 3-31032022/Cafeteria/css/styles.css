@@ -173,6 +173,7 @@ h3 {
 #linha div img {
   width: 100%;
 }
+
 #linha div h4 {
   font-family: arial;
   font-size: 15pt;
@@ -183,4 +184,57 @@ h3 {
   font-size: 15pt;
   color: red;
   font-weight: bold;
+}
+/* _______________Formatação CSS para a pagina contato________________ */
+
+main form {
+  width: 40%;
+  padding: 10px;
+  background-color: rgb(230, 161, 104);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main form input[type="text"],
+main form input[type="email"],
+main form input[type="tell"],
+main form select,
+main form textarea {
+  background-color: rgba(238, 141, 96, 0.911);
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: :0px;
+  border-bottom:1px solid silver;
+  border-radius:5px;
+  display:block;
+  
+
+
+
+}
+main form input[type="tel"]
+{
+  width: 30%;
+
+
+
+}
+main form textarea{
+height: 300px;
+border:1px solid silver;
+margin-bottom: 10px;
+
+}
+
+
+main form input[type="submit"]{
+
+  padding: 10px;
+  border-radius: 0px;
+  background-color: rgba(252, 147, 116, 0.884);
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  
 }
