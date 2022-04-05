@@ -12,10 +12,14 @@
     <!-- Definir o cabeçalho da pagina com a imagem de fundo e um texto para identificar o titulo da pagina com a tag h1 -->
 
  <header>
+    <a href="#"id="fechar" onclick="abrir()">&#9776;</a>
      <h1>Cafeteria Quentinha rs</h1> 
 
  </header>
-  <nav>
+
+ 
+    <nav>
+        <a href="#"id="fechar" onclick="fechar()">&times;</a>
       <ul>
           <li><a href="index.html">home</a></li>
           <li><a href="historia.html">história</a></li>
@@ -23,7 +27,7 @@
           <li><a href="contato.html">contato</a></li>
           <li><a href="localizacao">localização</a></li>
       </ul>
-  </nav>
+ </nav>
 
 <main></main>
 <footer>
@@ -44,6 +48,26 @@
         </ul>
     </div>
 </footer>
+
+<script>
+  function abrir (){
+
+    document.getElementsByTagName("nav")[0].style.left="0px";
+  }
+    function fechar(){
+        document.getElementsByTagName("nav")[0].style.left="-150px";
+    }
+
+
+
+
+</script>
+
+
+
+<a href="#" onclick="abrir()">&#x9776;</a>
+
+
 
 </body>
 </html>
